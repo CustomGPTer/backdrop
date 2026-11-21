@@ -38,12 +38,19 @@
 <main id="main" class="doc">
 <div class="wrap"><div class="measure">
 <h1>Release notes</h1>
-<p class="lede">What was added, improved and fixed in each version of Backdrop, newest first. The current version is 1.0.</p>
+<p class="lede">What was added, improved and fixed in each version of Backdrop, newest first. The current version is 1.1.</p>
 <p class="get"><a class="button" href="https://github.com/CustomGPTer/backdrop/releases/latest/download/Backdrop.apk"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>Download for Android</a></p>
-<p class="note">Version 1.0. Android app file, 2.5 MB. Android 8 or later. Free.</p>
+<p class="note">Version 1.1. Android app file, 2.5 MB. Android 8 or later. Free.</p>
 <p class="note">Chrome may say the file might be harmful. It shows this for app files that do not come from Google Play. Choose Download anyway, open the file, and allow your browser to install apps if Android asks. To be sure of the file, see <a href="#checking">Checking your download</a>.</p>
 <div class="release">
 <p><span class="badge">Latest</span>Released 21 November 2026</p>
+<h2>Version 1.1: changes on every unlock, reliably</h2>
+<h3>Fixed</h3>
+<ul><li>On Android 13 and later, Live mode could switch itself off after the first change, so the wallpaper stopped changing when you unlocked. Android doesn’t tell apps which live wallpaper is set, and Backdrop mistook that for not being your wallpaper. Backdrop now keeps track itself and never replaces its own live wallpaper.</li><li>Unlocks are now noticed two ways: Android’s unlock message, and your home screen coming back after the phone was locked.</li><li>Very large photos, such as 200 megapixel ones, no longer risk running out of memory when you add them.</li><li>Choosing Classic mode now switches to ordinary wallpapers straight away.</li><li>Settings shows the battery setting correctly after you change it.</li><li>If Backdrop isn’t your wallpaper yet, the Every time I unlock option now says so and tells you how to turn it on.</li></ul>
+<p>Install it over version 1.0. Your photos and settings are kept. If you were on 1.0, open Backdrop, tap Turn on Backdrop, then Set wallpaper.</p>
+</div>
+<div class="release">
+<p>Released 21 November 2026</p>
 <h2>Version 1.0: first release</h2>
 <h3>Added</h3>
 <ul><li>Photo sets of 1 to 25 photos each, as many sets as you like, picked with Android’s photo picker.</li><li>Private, encrypted copies of each photo, turned upright and stripped of location, date and camera details.</li><li>Frame your photo: crop, zoom, two-finger straighten, a straighten slider, rotate, Smart frame and Reset, with a pretend clock or app icons on top.</li><li>Fit with blur for landscape and odd-shaped photos.</li><li>Live mode, with a smooth fade on every unlock, catch-up timers, night dimming and an optional slow drift. Classic mode for ordinary wallpapers.</li><li>Changes on every unlock, every 15 minutes to 24 hours, once a day, or only when you tap Next. Shuffle without repeats, in order, or random.</li><li>Optional lock screen changes, with each photo set to home, lock or both and framed separately.</li><li>Favourites, day-only and night-only photos, and skip once.</li><li>Safe Mode with six built-in neutral wallpapers or your own photo, a quick settings tile and scheduled safe hours.</li><li>A home screen widget with Back, Next and Safe Mode, and a Next wallpaper tile.</li><li>App lock with fingerprint or face and a PIN, screenshot blocking, and password-protected backup files.</li><li>Dark, light and phone themes, with the accent colour taken from your wallpaper.</li></ul>
@@ -51,7 +58,7 @@
 <h2 id="checking">Checking your download</h2>
 <p>Every version is signed with the same key, so an update installs over the last one and keeps your photos. Android refuses an update signed by anyone else.</p>
 <p>If you want to check the file itself, its SHA-256 checksum is:</p>
-<p><code>777e8d353de1d8196f692d29c071b320c48be09673520e70c66b02be7bd7bf89</code></p>
+<p><code>93dc1b13bed98259638f5cbdf0de2493810342a944415dfacc95f5e0f25c6809</code></p>
 <p>Older versions, if any, are on the <a href="https://github.com/CustomGPTer/backdrop/releases">releases page on GitHub</a>.</p>
 </div></div>
 </main>
